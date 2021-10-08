@@ -8,12 +8,15 @@ n = 13195
 d = 0
 # set up empty list
 lst = []
-# set up counter
-k = 0
 # try out all the numbers from 2 to n
 for i in range(2, n+1):
-    # try out all numbers from 2 to actual
+    # try out all numbers only from list from 2 to square of actual
     for j in lst:
+        # break and add to list
+        if j > int((sqrt(i)) + 1):
+            d = i
+            lst.append(i)
+            break
         # break if not prime
         if i % j == 0:
             break

@@ -3,11 +3,15 @@
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
 # First lets made logic for 9009
-n = 9009
+x = 999
 # start from 999 countdown two loops until we ll find palindrome
-for i in range(999, 100, -1):
-    for j in range(i, 100, -1):
-        n = i * j
+for i in range(1, 999):
+
+    for j in range(i // 2, -1, -1):
+        k = i - j
+        l = x - j
+        m = x - k
+        n = l * m
         a = n // 100000
         b = (n % 100000) // 10000
         c = (n % 10000) // 1000
@@ -17,9 +21,6 @@ for i in range(999, 100, -1):
         if a == f and b == e and c == d:
             break
             print(n)
-        else:
-            continue
-    break
 
 # hide first logic below
 # i = 91

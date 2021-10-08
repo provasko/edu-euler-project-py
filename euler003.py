@@ -6,15 +6,21 @@ from math import sqrt
 n = 13195
 # set up largest prime number
 d = 0
-# set up empty list
-lst = []
-# try out all the numbers from 2 to n
-for i in range(2, n+1):
+# set up list from 2
+lst = [2]
+# try out all the numbers from 3 to n ignoring all even numbers (all odd from 3)
+for i in range(3, n+1, 2):
+    # add check for divisibility for 2 and 5
+    if i > 10:
+        if (i % 2 == 0) or (i % 5 == 0):
+            continue
     # try out all numbers only from list from 2 to square of actual
     for j in lst:
         # break and add to list
         if j > int((sqrt(i)) + 1):
-            d = i
+            # add check divisibility n by i
+            if n % i == 0:
+                d = i
             lst.append(i)
             break
         # break if not prime
@@ -22,6 +28,7 @@ for i in range(2, n+1):
             break
     # set up new d if prime and add to list
     else:
-        d = i
+        if n % i == 0:
+            d = i
         lst.append(i)
 print(d)

@@ -3,13 +3,15 @@
 
 from math import sqrt
 # set up number
-n = 13195
+n = 600851475143
+# n is very big, but we can add sqrt and check only to this number
+nn = int(sqrt(n))
 # set up largest prime number
 d = 0
 # set up list from 2
 lst = [2]
-# try out all the numbers from 3 to n ignoring all even numbers (all odd from 3)
-for i in range(3, n+1, 2):
+# try out all the numbers from 3 to nn ignoring all even numbers (all odd from 3)
+for i in range(3, nn+1, 2):
     # add check for divisibility for 2 and 5
     if i > 10:
         if (i % 2 == 0) or (i % 5 == 0):

@@ -4,20 +4,21 @@
 from math import sqrt
 # set up number
 n = 13195
-# set up largest prime factor
+# set up largest prime number
 d = 0
+# set up empty list
+lst = []
 # set up counter
 k = 0
 # try out all the numbers from 2 to n
 for i in range(2, n+1):
     # try out all numbers from 2 to actual
-    for j in range(2, i):
-        # count amount of factors
+    for j in lst:
+        # break if not prime
         if i % j == 0:
-            k += 1
-    # set up new d if there is no factors
-    if k == 0:
-        d = i
+            break
+    # set up new d if prime and add to list
     else:
-        k = 0
+        d = i
+        lst.append(i)
 print(d)

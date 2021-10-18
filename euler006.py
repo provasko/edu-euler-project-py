@@ -11,3 +11,5 @@ for i in range(1, 101):
     a += i * i
     b += i
 print(b*b - a)
+
+# 25164150

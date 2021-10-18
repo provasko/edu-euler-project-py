@@ -2,16 +2,23 @@
 # What is the 10 001st prime number?
 
 # Create algorithm for 13 (sixth prime number)
+from math import sqrt
 n = 0
 lst = []
 k = 0
 for i in range(2, 10000):
-    for j in range(2, i):
+    if i > 10:
+        if i % 2 == 0 or i % 10 == 5:
+            continue
+    for j in lst:
+        if j > int((sqrt(i)) - 1):
+            lst.append(i)
+            n += 1
+            break
         if i % j == 0:
-            k += 1
-    if k == 0:
+            break
+    else:
         lst.append(i)
         n += 1
-    else:
-        k = 0
+
 print(lst[n-1])

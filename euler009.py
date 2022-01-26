@@ -24,3 +24,5 @@ for m in range(2, 30):
             print(c)
             print(a * b * c)
             break
+
+# 31875000

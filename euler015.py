@@ -5,10 +5,10 @@
 n = int(input())
 n2 = n * 2
 x = 2 ** n
-print(x)
+# print(x)
 
 y = 2 ** n + 2 ** n - 2 ** (n-1)
-print(y)
+# print(y)
 
 # need to google Binomial coefficient
 # for position (a, b) it is = (a+b)!/((b!*((a+b)-b))! = (a+b)!/a!*b!
@@ -17,8 +17,14 @@ for i in range(1, n2+1):
     verh *= i
 
 niz = 1
-for j in range(1, n):
+for j in range(1, n+1):
     niz *= j
 
 z = verh/(niz * niz)
+print(n)
+print(n2)
+print(verh)
+print(niz)
 print(z)
+
+# 137846528820

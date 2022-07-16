@@ -51,7 +51,7 @@ for i in range(9, 1, -1):
                         break
 print(result)
 '''
-
+'''
 for i in range(900, 999, -1):
 
     for j in range(i // 2, i, -1):
@@ -65,3 +65,4 @@ for i in range(900, 999, -1):
         if a == f and b == e and c == d:
             break
             print(n)
+'''

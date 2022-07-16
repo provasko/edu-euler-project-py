@@ -34,7 +34,7 @@
 # if a == d and b == c:
 
 #     print(n)
-
+'''
 for i in range(9, 1, -1):
     for j in range(9, 0, -1):
         for k in range(9, 0, -1):
@@ -50,3 +50,5 @@ for i in range(9, 1, -1):
                     if 100 < result / l < 999:
                         break
 print(result)
+'''
+

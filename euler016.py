@@ -14,3 +14,18 @@ while a > 0:
 print(total)
 
 # 1366 - need to check whet site is working
+
+#another variant
+
+b = 2**1000
+c = str(b)
+
+d = []
+
+for dig in c:
+
+    d.append(int(dig))
+
+e = sum(d)
+
+print(e)

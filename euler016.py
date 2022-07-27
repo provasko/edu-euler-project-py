@@ -8,7 +8,7 @@ a = 2**1000
 
 while a > 0:
     b = a % 10
-    total += b 
+    total += b
     a = a // 10
 
 print(total)

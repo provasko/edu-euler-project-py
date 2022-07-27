@@ -12,3 +12,5 @@ while a > 0:
     a = a // 10
 
 print(total)
+
+# 1366 - need to check whet site is working

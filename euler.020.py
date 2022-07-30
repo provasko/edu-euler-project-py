@@ -13,9 +13,16 @@ import numbers
 from tkinter import N
 
 
+sum = 0
 facto = 1
 number1 = 10
 while number1 > 0:
     facto *= number1
     number1 -= 1
 
+while facto > 0:
+    number2 = facto % 10
+    facto = facto // 10
+    sum += number2
+
+print(sum)

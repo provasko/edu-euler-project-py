@@ -15,7 +15,7 @@ from tkinter import N
 
 sum = 0
 facto = 1
-number1 = 10
+number1 = 100
 while number1 > 0:
     facto *= number1
     number1 -= 1
@@ -26,3 +26,5 @@ while facto > 0:
     sum += number2
 
 print(sum)
+
+#648

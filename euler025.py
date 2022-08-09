@@ -4,17 +4,19 @@
 
 proverka = 0
 poryadok = 2
-a = 10**2
+a = 10**999
 chislo = 1
 chislo2 = 1
 x = 0
 
 while proverka < 1:
-    
+
     x = chislo + chislo2
     chislo2 = chislo
     chislo = x
     proverka = chislo // a
     poryadok += 1
 
-print(chislo)
+print(poryadok)
+
+# 4782

@@ -18,6 +18,7 @@ year = 1900
 month = 1
 date = 1
 day = 1
+
 while year < 2001:
     while month < 13:
         while day < 32:

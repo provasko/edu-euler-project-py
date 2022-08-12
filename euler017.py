@@ -9,3 +9,16 @@ NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-
 contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. 
 The use of "and" when writing out numbers is in compliance with British usage.
 '''
+
+one = 3
+two = 3
+three = 5
+four = 4
+five = 5
+six = 3
+seven = 5
+eight = 5
+nine = 4
+ten = 3
+eleven = 6
+twelve = 6

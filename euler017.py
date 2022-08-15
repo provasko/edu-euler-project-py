@@ -9,7 +9,8 @@ NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-
 contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. 
 The use of "and" when writing out numbers is in compliance with British usage.
 '''
-
+zero = 0
+antizero = 1
 one = 3
 two = 3
 three = 5
@@ -40,9 +41,11 @@ eighty = 6
 ninety = 6
 
 hundred = 7
-
+und = 3
 thousand = 8
 
 itog = 0
 
 # hundreds
+for i in range (10):
+    

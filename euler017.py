@@ -11,6 +11,7 @@ The use of "and" when writing out numbers is in compliance with British usage.
 '''
 zero = 0
 antizero = 1
+
 one = 3
 two = 3
 three = 5
@@ -21,6 +22,7 @@ seven = 5
 eight = 5
 nine = 4
 ten = 3
+
 eleven = 6
 twelve = 6
 thirteen = 8
@@ -48,4 +50,6 @@ itog = 0
 
 # hundreds
 for i in range (10):
-    
+
+    for j in range (2, 10):
+        

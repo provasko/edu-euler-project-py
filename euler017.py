@@ -41,5 +41,8 @@ ninety = 6
 
 hundred = 7
 
+thousand = 8
+
 itog = 0
 
+# hundreds

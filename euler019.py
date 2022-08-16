@@ -20,7 +20,11 @@ date = 1
 day = 1
 
 while year < 2001:
+    month = 1
     while month < 13:
+        day = 1
+        if weekday == 7:
+            total += 1
         while day < 32:
 
             day += 1

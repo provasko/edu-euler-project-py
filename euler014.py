@@ -14,3 +14,6 @@ Which starting number, under one million, produces the longest chain?
 
 ! Once the chain starts the terms are allowed to go above one million.
 '''
+# first check the biggest odd number under million 999999  - wrong
+
+# check the biggest simple number 999983 - wrong

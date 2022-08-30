@@ -18,6 +18,6 @@ Find the value of d < 1000 for which 1/d contains the longest recurring cycle in
 fraction part.
 '''
 
-print(1/7)
+print(1/997)
 
 # не решается простым делением на максимальное простое число
